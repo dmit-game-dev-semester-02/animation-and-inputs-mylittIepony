@@ -37,7 +37,7 @@ public class AnimationAndInputs : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        _backgroundImage = Content.Load<Texture2D>("background");
+        _background = Content.Load<Texture2D>("background");
         _logo = Content.Load<Texture2D>("logo");
     }
 
