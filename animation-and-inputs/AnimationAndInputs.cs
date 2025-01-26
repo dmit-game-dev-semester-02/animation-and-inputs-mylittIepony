@@ -26,7 +26,11 @@ public class AnimationAndInputs : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        _graphics.PreferredBackBufferWidth = _WindowWidth;
+        _graphics.PreferredBackBufferHeight = _WindowHeight;
+        _graphics.ApplyChanges();
+
+        base.Initialize();
 
         base.Initialize();
     }
