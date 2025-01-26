@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("animation-and-inputs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf2ea8ac775a0b95e0786ce2a18a184498173e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a93e7ad410e10c540a956b7db37b331aac5aa027")]
 [assembly: System.Reflection.AssemblyProductAttribute("animation-and-inputs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("animation-and-inputs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

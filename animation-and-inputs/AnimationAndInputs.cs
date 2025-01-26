@@ -6,8 +6,16 @@ namespace animation_and_inputs;
 
 public class AnimationAndInputs : Game
 {
+    private const int _WindowWidth = 640;
+    private const int _WindowHeight = 320;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private Texture2D _background;
+       private Texture2D  _logo;
+
+       private float _x = 0;
+       private float _y = 0;
+
 
     public AnimationAndInputs()
     {
