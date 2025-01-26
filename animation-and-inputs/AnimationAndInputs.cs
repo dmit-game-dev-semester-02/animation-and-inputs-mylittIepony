@@ -32,14 +32,13 @@ public class AnimationAndInputs : Game
 
         base.Initialize();
 
-        base.Initialize();
     }
 
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-
-        // TODO: use this.Content to load your game content here
+        _backgroundImage = Content.Load<Texture2D>("background");
+        _logo = Content.Load<Texture2D>("logo");
     }
 
     protected override void Update(GameTime gameTime)
