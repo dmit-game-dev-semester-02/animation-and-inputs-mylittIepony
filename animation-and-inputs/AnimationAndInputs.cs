@@ -13,8 +13,6 @@ public class AnimationAndInputs : Game
     private Texture2D _background;
        private Texture2D  _logo;
 
-       private float _x = 0;
-       private float _y = 0;
 
 
     public AnimationAndInputs()
@@ -44,17 +42,18 @@ public class AnimationAndInputs : Game
     protected override void Update(GameTime gameTime)
     {
   
-
-        // TODO: Add your update logic here
+        
 
         base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+        _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
+        _spriteBatch.Draw(_logo, new Vector2(120, 40, Color.White);
+         _spriteBatch.End();
 
         base.Draw(gameTime);
     }
