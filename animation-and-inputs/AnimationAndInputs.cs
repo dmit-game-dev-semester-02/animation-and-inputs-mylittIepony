@@ -43,6 +43,14 @@ public class AnimationAndInputs : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _background = Content.Load<Texture2D>("background");
         _logo = Content.Load<Texture2D>("logo");
+        _coin1 = Content.Load<Texture2D>("coin1");
+        _coin2 = Content.Load<Texture2D>("coin2");
+         _coin1Anim = new CelAnimationSequence(_coin1Texture, 16, 0.1f); 
+        _coin2Anim = new CelAnimationSequence(_coin2Texture, 16, 0.1f);
+        _coin1Player = new CelAnimationPlayer();
+        _coin2Player = new CelAnimationPlayer();
+        _coin1Player.Play(_coin1Anim);
+        _coin2Player.Play(_coin2Anim);
     }
 
 
