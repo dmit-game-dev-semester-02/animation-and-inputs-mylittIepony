@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/background.jpg</SourceFile>
-  <SourceTime>2025-01-26T16:33:58.3246313-07:00</SourceTime>
+  <SourceTime>2025-01-26T20:11:01.0561413-07:00</SourceTime>
   <DestFile>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/bin/DesktopGL/Content/background.xnb</DestFile>
-  <DestTime>2025-01-26T18:24:55.3600682-07:00</DestTime>
+  <DestTime>2025-01-26T20:12:15.8034103-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T11:05:56-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

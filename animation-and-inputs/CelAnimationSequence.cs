@@ -30,8 +30,8 @@ public class CelAnimationSequence
             this.celWidth = celWidth;
             this.celTime = celTime;
 
-            celHeight = texture.Height / 14;
-            celCount = 14; 
+            celHeight = 16;
+            celCount = texture.Width / celWidth;
 
             // i have fourteen rows for a one column spritesheet
             // the coins are simply animated.

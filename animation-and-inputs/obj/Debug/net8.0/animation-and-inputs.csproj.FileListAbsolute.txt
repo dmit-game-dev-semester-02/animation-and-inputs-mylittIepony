@@ -6,7 +6,6 @@ C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\an
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\obj\Debug\net8.0\animation-and-inputs.sourcelink.json
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\background.xnb
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\coin.xnb
-C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\coin2.xnb
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\logo.xnb
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\animation-and-inputs.exe
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\animation-and-inputs.deps.json
