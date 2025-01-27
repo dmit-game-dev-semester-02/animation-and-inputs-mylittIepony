@@ -11,7 +11,13 @@ public class AnimationAndInputs : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     private Texture2D _background;
-       private Texture2D  _logo;
+    private Texture2D  _logo;
+     private Texture2D _coin1;
+    private Texture2D _coin2;
+    private CelAnimationSequence _coin1Anim;
+    private CelAnimationSequence _coin2Anim;
+    private CelAnimationPlayer _coin1Player;
+    private CelAnimationPlayer _coin2Player;
 
 
 
@@ -32,7 +38,7 @@ public class AnimationAndInputs : Game
 
     }
 
-    protected override void LoadContent()
+    protected override void LoadCoantent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _background = Content.Load<Texture2D>("background");
