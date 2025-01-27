@@ -29,3 +29,4 @@ C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\an
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\obj\Debug\net8.0\ref\animation-and-inputs.dll
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\egg.xnb
 C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\multirow.xnb
+C:\Users\merce\Documents\NAIT\sem2\DMIT1514\animation-and-inputs-mylittIepony\animation-and-inputs\bin\Debug\net8.0\Content\monster.xnb

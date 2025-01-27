@@ -65,9 +65,9 @@ public class AnimationAndInputs : Game
 
         _monster = Content.Load<Texture2D>("monster");
         _monsterAnim = new CelAnimationSequence(_monster, 32, 0.1f);
-        _monsterPlayer = new CelAnimationPlayer()'
+        _monsterPlayer = new CelAnimationPlayer();
         _monsterPlayer.Play(_monsterAnim);
-        
+
 
     }
 
@@ -76,6 +76,27 @@ public class AnimationAndInputs : Game
     protected override void Update(GameTime gameTime)
     {
 
+         KeyboardState kbCurrentState = Keyboard.GetState();
+
+
+ if (kbCurrentState.IsKeyDown(Keys.Down) || kbCurrentState.IsKeyDown(Keys.S))
+        {
+            _monsterPosition.Y += 5; 
+        }
+        if (kbCurrentState.IsKeyDown(Keys.Right) || kbCurrentState.IsKeyDown(Keys.D))
+        {
+            _monsterPosition.X += 5; 
+        }
+        if (kbCurrentState.IsKeyDown(Keys.Left) || kbCurrentState.IsKeyDown(Keys.A))
+        {
+            _monsterPosition.X -= 5; 
+            
+        }
+        if (kbCurrentState.IsKeyDown(Keys.Up) || kbCurrentState.IsKeyDown(Keys.W))
+        {
+            _monsterPosition.Y -= 5; 
+        }
+        _monsterPlayer.Update(gameTime);
         _coin1Player.Update(gameTime);
     _eggPlayer.Update(gameTime);
 
@@ -102,6 +123,7 @@ _spriteBatch.Draw(_logo, new Vector2(40, 40), null, Color.White, 0f, Vector2.Zer
 
          _coin1Player.Draw(_spriteBatch, new Vector2(170, 100),  SpriteEffects.None);
           _eggPlayer.Draw(_spriteBatch, new Vector2(190, 100),  SpriteEffects.None);
+           _monsterPlayer.Draw(_spriteBatch, _monsterPosition, SpriteEffects.None);
 
          _spriteBatch.End();
 
