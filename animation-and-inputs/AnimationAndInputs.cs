@@ -18,6 +18,10 @@ public class AnimationAndInputs : Game
 
     private CelAnimationPlayer _coin1Player;
 
+    private Texture2D _egg;
+    private CelAnimationSequence _eggAnim;
+    private CelAnimationPlayer _eggPlayer;
+
 
 
 
@@ -50,6 +54,11 @@ public class AnimationAndInputs : Game
         _coin1Player = new CelAnimationPlayer();
         _coin1Player.Play(_coin1Anim);
 
+        _egg = Content.Load<Texture2D>("egg");
+        _eggAnim = new CelAnimationSequence(_egg, 16,0.1f);
+        _eggPlayer = new CelAnimationPlayer();
+        _eggPlayer.Play(_eggAnim);
+
     }
 
 
@@ -58,6 +67,7 @@ public class AnimationAndInputs : Game
     {
 
         _coin1Player.Update(gameTime);
+    _eggPlayer.Update(gameTime);
 
   
         
@@ -74,9 +84,13 @@ _spriteBatch.Draw(_logo, new Vector2(40, 40), null, Color.White, 0f, Vector2.Zer
 // resized my image to be
 // way less than its original size
 // because otherwise it would be huge;
+// im aware some of the properties are useless but like
+// it literally breaks if i remove one so dont judge me
+// im crashing out
 
 
          _coin1Player.Draw(_spriteBatch, new Vector2(170, 100),  SpriteEffects.None);
+          _eggPlayer.Draw(_spriteBatch, new Vector2(190, 100),  SpriteEffects.None);
          _spriteBatch.End();
 
         base.Draw(gameTime);
