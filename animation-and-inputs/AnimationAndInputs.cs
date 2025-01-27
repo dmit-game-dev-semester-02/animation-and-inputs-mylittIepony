@@ -71,7 +71,10 @@ public class AnimationAndInputs : Game
 
         _spriteBatch.Begin();
         _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
-        _spriteBatch.Draw(_logo, new Vector2(120, 40), Color.White);
+_spriteBatch.Draw(_logo, new Vector2(120, 40), null, Color.White, 0f, Vector2.Zero, 0.2f, SpriteEffects.None, 0f);
+// resized my image to be
+// way less than its original size
+// because otherwise it would be huge;
 
          _coin1Player.Draw(_spriteBatch, new Vector2(100, 100),  SpriteEffects.None);
         _coin2Player.Draw(_spriteBatch, new Vector2(200, 100),  SpriteEffects.None);
