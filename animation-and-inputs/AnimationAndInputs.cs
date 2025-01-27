@@ -52,7 +52,7 @@ public class AnimationAndInputs : Game
 
         _spriteBatch.Begin();
         _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
-        _spriteBatch.Draw(_logo, new Vector2(120, 40, Color.White);
+        _spriteBatch.Draw(_logo, new Vector2(120, 40), Color.White);
          _spriteBatch.End();
 
         base.Draw(gameTime);
