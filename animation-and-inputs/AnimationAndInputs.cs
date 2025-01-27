@@ -6,8 +6,8 @@ namespace animation_and_inputs;
 
 public class AnimationAndInputs : Game
 {
-    private const int _WindowWidth = 640;
-    private const int _WindowHeight = 320;
+    private const int _WindowWidth = 1280;
+    private const int _WindowHeight = 720;
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     private Texture2D _background;
@@ -38,6 +38,8 @@ public class AnimationAndInputs : Game
         _background = Content.Load<Texture2D>("background");
         _logo = Content.Load<Texture2D>("logo");
     }
+
+
 
     protected override void Update(GameTime gameTime)
     {
