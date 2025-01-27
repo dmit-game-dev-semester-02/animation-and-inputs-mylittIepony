@@ -23,7 +23,7 @@ done
 
 (1 mark) Have another, separate animation sequence move around in response to key input and animate differently depending on what direction it's moving in.  
 cant do this one cause it requires the multirow and my classes wont recognize unless i restart my entirew prokject
-which like i said im literally just not doing
+which like i said im literally just not doing cause i cannot be asked to remake it
 
 ### Additional Notes
 - Any or all artwork may be generated or found on the Internet as long as the content is in the public domain.  
