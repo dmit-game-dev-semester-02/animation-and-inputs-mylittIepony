@@ -43,7 +43,7 @@ public class AnimationAndInputs : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _background = Content.Load<Texture2D>("background");
         _logo = Content.Load<Texture2D>("logo");
-        _coin1 = Content.Load<Texture2D>("coin1");
+        _coin1 = Content.Load<Texture2D>("coin");
         _coin2 = Content.Load<Texture2D>("coin2");
          _coin1Anim = new CelAnimationSequence(_coin1, 16, 0.1f); 
         _coin2Anim = new CelAnimationSequence(_coin2, 16, 0.1f);
@@ -73,8 +73,8 @@ public class AnimationAndInputs : Game
         _spriteBatch.Draw(_background, Vector2.Zero, Color.White);
         _spriteBatch.Draw(_logo, new Vector2(120, 40), Color.White);
 
-         _coin1Player.Draw(_spriteBatch, new Vector2(100, 100), Color.White);
-        _coin2Player.Draw(_spriteBatch, new Vector2(200, 100), Color.White);
+         _coin1Player.Draw(_spriteBatch, new Vector2(100, 100),  SpriteEffects.None);
+        _coin2Player.Draw(_spriteBatch, new Vector2(200, 100),  SpriteEffects.None);
          _spriteBatch.End();
 
         base.Draw(gameTime);
