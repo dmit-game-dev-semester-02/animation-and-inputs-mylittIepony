@@ -25,6 +25,7 @@ public class AnimationAndInputs : Game
 
 
 
+
     public AnimationAndInputs()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -69,6 +70,7 @@ public class AnimationAndInputs : Game
         _coin1Player.Update(gameTime);
     _eggPlayer.Update(gameTime);
 
+
   
         
 
@@ -91,6 +93,7 @@ _spriteBatch.Draw(_logo, new Vector2(40, 40), null, Color.White, 0f, Vector2.Zer
 
          _coin1Player.Draw(_spriteBatch, new Vector2(170, 100),  SpriteEffects.None);
           _eggPlayer.Draw(_spriteBatch, new Vector2(190, 100),  SpriteEffects.None);
+
          _spriteBatch.End();
 
         base.Draw(gameTime);
