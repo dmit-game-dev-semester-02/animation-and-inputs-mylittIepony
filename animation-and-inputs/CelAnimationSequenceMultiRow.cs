@@ -31,10 +31,10 @@ public class CelAnimationSequenceMultiRow
 
         celHeight = Texture.Height;
 
-        //SITUATION ONE: ONE ANIMATION, MULTIPLE ROWS
-        //this.celHeight = celHeight (celHeight has to be passed as a parameter)
-        //celColumnCount = Texture.Width / celWidth;
-        //celRowCount = Texture.Height / celHeight;
+        
+    this.celHeight = celHeight 
+        celColumnCount = Texture.Width / celWidth;
+        celRowCount = Texture.Height / celHeight;
     }
 
     /// <summary>

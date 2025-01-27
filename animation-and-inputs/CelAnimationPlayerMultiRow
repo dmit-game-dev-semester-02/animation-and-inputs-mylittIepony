@@ -58,8 +58,8 @@ public class CelAnimationPlayerMultiRow
 
                 // Advance the frame index looping as appropriate...
                 //SITUATION ONE: ONE ANIMATION, MULTIPLE ROWS
-                //celIndexColumn = (celIndexColumn + 1) % celAnimationSequence.CelColumnCount;
-                //celIndexRow = (celIndexRow + 1) % celAnimationSequence.CelRowCount;
+                celIndexColumn = (celIndexColumn + 1) % celAnimationSequence.CelColumnCount;
+        celIndexRow = (celIndexRow + 1) % celAnimationSequence.CelRowCount;
                 celIndex = (celIndex + 1) % celAnimationSequence.CelCount;
 
                 celSourceRectangle.X = celIndex * celSourceRectangle.Width;

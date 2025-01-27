@@ -13,7 +13,9 @@
 (1 mark) Make the window the same size as the background image.  
 Done
 (5 marks) Include a background image as the background, another image in the foreground, and two properly-animated animation sequences.  
+Done
 (2 marks) Add an animation sequence that is represented by a texture with more than one row (a multi-row sprite sheet). This will require that the CelAnimationSequence and/or the CelAnimationPlayer classes be modified.  
+
 (1 mark) Have an animation sequence move around in response to key input.  
 (1 mark) Have another, separate animation sequence move around in response to key input and animate differently depending on what direction it's moving in.  
 
