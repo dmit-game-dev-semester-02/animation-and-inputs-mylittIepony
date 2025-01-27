@@ -4,12 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/../../../../../../../Downloads/coin.png</File>
     <File>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/background.jpg</File>
+    <File>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/coin.png</File>
+    <File>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/coin2.png</File>
     <File>C:/Users/merce/Documents/NAIT/sem2/DMIT1514/animation-and-inputs-mylittIepony/animation-and-inputs/Content/logo.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>coin.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

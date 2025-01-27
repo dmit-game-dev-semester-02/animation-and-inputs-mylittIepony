@@ -2,22 +2,22 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace animation_and_inputs;
+namespace animation-and-inputs
+;
     
 /// <summary>
 /// Controls playback of a CelAnimationSequence.
 /// </summary>
 public class CelAnimationPlayer
-
-
 {
     private CelAnimationSequence celAnimationSequence;
-
     private int celIndex;
     private float celTimeElapsed;
     private Rectangle celSourceRectangle;
 
-
+    /// <summary>
+    /// Begins or continues playback of a CelAnimationSequence.
+    /// </summary>
     public void Play(CelAnimationSequence celAnimationSequence)
     {
         if (celAnimationSequence == null)
