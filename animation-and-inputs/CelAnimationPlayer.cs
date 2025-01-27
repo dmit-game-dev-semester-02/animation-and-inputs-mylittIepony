@@ -57,7 +57,7 @@ public class CelAnimationPlayer
 
                 celSourceRectangle.X = celIndex * celSourceRectangle.Width;
             }
-        }
+        }// test
     }
 
     /// <summary>

@@ -24,16 +24,19 @@ public class CelAnimationSequence
     /// <summary>
     /// Constructs a new CelAnimationSequence.
     /// </summary>        
-    public CelAnimationSequence(Texture2D texture, int celWidth, float celTime)
-    {
-        this.texture = texture;
-        this.celWidth = celWidth;
-        this.celTime = celTime;
+         public CelAnimationSequence(Texture2D texture, int celWidth, float celTime)
+        {
+            this.texture = texture;
+            this.celWidth = celWidth;
+            this.celTime = celTime;
 
-        celHeight = Texture.Height;
-        celCount = Texture.Width / celWidth;
-    }
+            celHeight = texture.Height / 14;
+            celCount = 14; 
 
+            // i have fourteen rows for a one column spritesheet
+            // the coins are simply animated.
+            // my multi row onewill be much diff
+        }
     /// <summary>
     /// All frames in the animation arranged horizontally.
     /// </summary>
