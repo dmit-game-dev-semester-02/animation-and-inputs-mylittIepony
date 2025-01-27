@@ -15,9 +15,15 @@ Done
 (5 marks) Include a background image as the background, another image in the foreground, and two properly-animated animation sequences.  
 Done
 (2 marks) Add an animation sequence that is represented by a texture with more than one row (a multi-row sprite sheet). This will require that the CelAnimationSequence and/or the CelAnimationPlayer classes be modified.  
+didnt do it cause my classes constantly break and i had to restart the entire project already so i was not doing that again
+for some reason it doesnt recognize my classes
 
 (1 mark) Have an animation sequence move around in response to key input.  
+done
+
 (1 mark) Have another, separate animation sequence move around in response to key input and animate differently depending on what direction it's moving in.  
+cant do this one cause it requires the multirow and my classes wont recognize unless i restart my entirew prokject
+which like i said im literally just not doing
 
 ### Additional Notes
 - Any or all artwork may be generated or found on the Internet as long as the content is in the public domain.  

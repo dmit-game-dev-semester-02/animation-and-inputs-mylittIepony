@@ -22,7 +22,10 @@ public class AnimationAndInputs : Game
     private CelAnimationSequence _eggAnim;
     private CelAnimationPlayer _eggPlayer;
 
-
+        private Texture2D _monster;
+    private Vector2 _monsterPosition;
+    private CelAnimationSequence _monsterAnim;
+    private CelAnimationPlayer _monsterPlayer;
 
 
 
@@ -59,6 +62,12 @@ public class AnimationAndInputs : Game
         _eggAnim = new CelAnimationSequence(_egg, 16,0.1f);
         _eggPlayer = new CelAnimationPlayer();
         _eggPlayer.Play(_eggAnim);
+
+        _monster = Content.Load<Texture2D>("monster");
+        _monsterAnim = new CelAnimationSequence(_monster, 32, 0.1f);
+        _monsterPlayer = new CelAnimationPlayer()'
+        _monsterPlayer.Play(_monsterAnim);
+        
 
     }
 
