@@ -2,8 +2,8 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace animation-and-inputs
-;
+namespace animation_and_inputs;
+
     
 /// <summary>
 /// Controls playback of a CelAnimationSequence.
@@ -70,5 +70,5 @@ public class CelAnimationPlayer
             spriteBatch.Draw(celAnimationSequence.Texture, position, celSourceRectangle, Color.White, 0.0f, Vector2.Zero, 1.0f, spriteEffects, 0.0f);
         }
     }
-}
 
+}

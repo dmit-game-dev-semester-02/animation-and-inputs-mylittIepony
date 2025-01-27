@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace animation-and-inputs;
+namespace animation_and_inputs;
     
 /// <summary>
 /// Represents a cel animated texture.
@@ -77,3 +77,4 @@ public class CelAnimationSequence
         get { return celHeight; }
     }
 }
+
